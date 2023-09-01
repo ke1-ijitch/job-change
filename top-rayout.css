@@ -159,6 +159,7 @@ input[type=radio]{
 
 .top-img{
     width: 100%;
+    vertical-align: bottom;
 }
 
 .call{
@@ -238,8 +239,7 @@ input[type=radio]{
 
 .first-container{
     background: #FFFCF6;
-    height: 600px;
-    padding-top:10px;
+    height: 580px;
 }
 
 .first-title{
