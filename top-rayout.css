@@ -22,7 +22,7 @@ input,select,textarea{
     font-family: 'Noto Serif JP', serif;
 }
 
-select{
+/* select{
     appearance: none;
 }
 
@@ -33,7 +33,7 @@ select{
     position: relative;
     right: 30px;
     color: #79A7D9;
-}
+} */
 
 input[type=radio]{
     display: none;
