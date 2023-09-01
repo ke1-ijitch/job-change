@@ -239,6 +239,7 @@ input[type=radio]{
 .first-container{
     background: #FFFCF6;
     height: 600px;
+    padding-top:10px;
 }
 
 .first-title{
