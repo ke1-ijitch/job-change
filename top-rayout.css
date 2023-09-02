@@ -513,7 +513,7 @@ input[type=radio]{
 }
 
 .form{
-    width: 590px;
+    width: 650px;
     text-align: left;
     display: inline-block;
     margin: 0 auto;
@@ -545,6 +545,7 @@ input[type=radio]{
 
 #rendou,#rendou01{
     margin-bottom: 20px;
+    width: 185px;
 }
 
 #rendou01{
@@ -677,7 +678,7 @@ input[type=radio]{
     text-align: center;
     position: relative;
     top:85px;
-    left: 90px;
+    left: 120px;
     background: #FFFEFE;
     width: 410px;
     height: 30px;
@@ -688,7 +689,7 @@ input[type=radio]{
     text-align: center;
     position: relative;
     bottom: 80px;
-    left: 80px;
+    left: 120px;
     background: #FFFEFE;
     width: 410px;
     height: 35px;
@@ -706,7 +707,7 @@ input[type=radio]{
 
 #bt{
     position: relative;
-    left: 165px;
+    left: 195px;
     text-decoration: none;
     bottom: 30px;
     border: #F2AB40 2px solid;
