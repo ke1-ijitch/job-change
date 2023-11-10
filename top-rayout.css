@@ -510,6 +510,7 @@ input[type=radio]{
 .fifth-container{
     background: #ffffff;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .form{
