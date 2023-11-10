@@ -704,7 +704,9 @@ input[type=radio]{
     height: 400px;
 }
 
-#bt{
+/* #bt{
+    position: relative;
+    left: 165px;
     text-decoration: none;
     bottom: 30px;
     border: #F2AB40 2px solid;
@@ -718,6 +720,8 @@ input[type=radio]{
 }
 
 #bt:hover{
+    position: relative;
+    left: 165px;
     text-decoration: none;
     bottom: 30px;
     border: #F2AB40 2px solid;
@@ -728,7 +732,7 @@ input[type=radio]{
     border-radius: 5px;
     font-family: 'Noto Serif JP', serif;
     transition: 0.3s all;
-}
+} */
 
 .agree-icon{
     display: inline-block;
@@ -736,4 +740,39 @@ input[type=radio]{
     transform: rotate(-45deg);
     position: relative;
     bottom: 2px;
+}
+
+.bt-posi{
+    margin: 0 auto;
+    width: 410px;
+    text-align: center;
+}
+
+#bt{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    bottom: 30px;
+    border: #F2AB40 2px solid;
+    color: #F2AB40;
+    background-color: #FFFEFE;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Noto Serif JP', serif;
+    transition: 0.3s all;
+}
+
+#bt:hover{
+    display: inline-block;
+    text-decoration: none;
+    bottom: 30px;
+    border: #F2AB40 2px solid;
+    color: #ffffff;
+    background-color: #F2AB40;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Noto Serif JP', serif;
+    transition: 0.3s all;
 }
