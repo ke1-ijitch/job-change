@@ -721,7 +721,6 @@ input[type=radio]{
 
 #bt:hover{
     position: relative;
-    left: 185px;
     text-decoration: none;
     bottom: 30px;
     border: #F2AB40 2px solid;
