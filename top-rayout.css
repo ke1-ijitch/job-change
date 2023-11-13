@@ -22,19 +22,6 @@ input,select,textarea{
     font-family: 'Noto Serif JP', serif;
 }
 
-/* select{
-    appearance: none;
-}
-
-.select::after{
-    content:"◢" ;
-    transform: rotate(45deg) scale(0.5);
-    display: inline-block;
-    position: relative;
-    right: 30px;
-    color: #79A7D9;
-} */
-
 input[type=radio]{
     display: none;
 }
@@ -164,16 +151,22 @@ input[type=radio]{
 .top-container{
     text-align: center;
     width: 270px;
-    position: relative;
+    /* position: relative;
     bottom: 300px;
     left: 100px;
-    margin-bottom: -280px;
+    margin-bottom: -280px; */
+    padding: 40px;
 }
 
-.top-img{
+.b-img{
+    background-image: url(job-top-01.jpg);
+    background-size: cover;
+}
+
+/* .top-img{
     width: 100%;
     vertical-align: bottom;
-}
+} */
 
 .call{
     font-size: 24px;
@@ -250,6 +243,45 @@ input[type=radio]{
     transition: all 0.3s;
 }
 
+.i-bt-icon-t{
+    font-size: 10px;
+    display: inline-block;
+    transform: rotate(-45deg) scale(0.8);
+    position: relative;
+    bottom: 2px;
+    left: 11px;
+}
+
+.induction-bt-t{
+    vertical-align: bottom;
+    border: #79A7D9 2px solid;
+    background: #79A7D9;
+    color: #ffffff;
+    width: 270px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 0 12px;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.induction-bt-t:hover{
+    vertical-align: bottom;
+    border: #79A7D9 2px solid;
+    background: #ffffff;
+    color: #79A7D9;
+    width: 270px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 0 12px;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+}
+
 .first-container{
     background: #FFFCF6;
     height: 580px;
@@ -298,10 +330,13 @@ input[type=radio]{
     padding-bottom: 50px;
 }
 
-.text-flex02{
-    justify-content: space-evenly;
-    display: flex;
+.text-back02{
+    background-color: #ffffff;
+    width: 80%;
+    padding: 10px;
     position: relative;
+    left: 35px;
+    bottom: 40px;
 }
 
 .text-box02-1,.text-box02-2,.text-box02-3{
@@ -327,14 +362,14 @@ input[type=radio]{
 }
 
 .title02{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .details02{
     text-align: left;
     display: inline-block;
     width: 220px;
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 20px;
 }
 
