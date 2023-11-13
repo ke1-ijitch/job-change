@@ -32,6 +32,11 @@ h2{
     font-weight: normal;
 }
 
+h3{
+    font-size: 14px;
+    font-weight: normal;
+}
+
 .main-container{
     max-width: 540px;
     width: 100%;
@@ -353,4 +358,45 @@ h2{
 
 .fourth-container{
     background-color: #EAF4FF;
+}
+
+.back-text04{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    transform: rotate(-20deg);
+    color: #F2AB40;
+    opacity: 40%;
+    position: relative;
+    z-index: 10;
+    top: 33px;
+    right: 19vw;
+}
+
+.fourth-details{
+    text-align: left;
+    display: inline-block;
+}
+
+.round-img{
+    width: 150px;
+    padding: 10px 0 15px 0;
+}
+
+.step-title{
+    text-align: left;
+    display: inline-block;
+    width: 220px;
+    font-weight: bold;
+}
+
+.round-details{
+    text-align: left;
+    display: inline-block;
+    width: 220px;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.icon-flex{
+    display: none;
 }
