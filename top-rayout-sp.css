@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+html{
+    font-family: 'Noto Serif JP', serif;
+}
+
+body{
+    margin-right: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    background-image: url(texture_00010.jpg);
+}
+
+input[type=radio]{
+    display: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.main-container{
+    max-width: 540px;
+    width: 100%;
+}
+
+/* ↑基本設定記述 */
+
+.flex-container{
+    display: flex;
+}
+
+.top-header{
+    display: flex;
+    background-color: #79A7D9;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.corp-logo{
+    padding: 5px;
+}
+.divide{
+    border-right: solid 1.5px #ffffff;
+    transform: rotate(30deg) ;
+}
+
+.sign-form{
+    width: 150px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+/* ↑ヘッダー */
+
+.top-img{
+    width: 100%;
+    vertical-align: top;
+}
+
+.call{
+    font-size: 14px;
+    margin-bottom: -15px;
+}
+
+.no1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.b-img{
+    background-image: url(job-top-sp.png);
+    background-size: cover;
+}
+
+.top-container{
+    height: 100%;
+    padding: 8vw;
+    width: 150px;
+    position: relative;
+    /* bottom: 180px;
+    left: 7vw; */
+    color: #ffffff;
+    /* margin-bottom: -150px; */
+}
+
+.achieve-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.achieve-border{
+    border: #F2AB40 solid 2px;
+    padding: 2px;
+}
+
+.achieve-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #F2AB40;
+}
+
+.achieve-details{
+    font-size: 10px;
+}
+
+.induction-bt-t{
+    margin-top: 20px;
+    background-color: #418DDF;
+    border-radius: 5px;
+}
+
+.bt-details-t{
+    font-size: 10px;
+    position: relative;
+    bottom: 3px;
+}
+
+.i-bt-icon-t{
+    display: inline-flex;
+    transform: rotate(-45deg) scale(0.3);
+}
+
+.induction-bt{
+    display: inline-block;
+    margin-top: 40px;
+    background-color: #418DDF;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.bt-details{
+    font-size: 16px;
+}
+
+.i-bt-icon{
+    display: inline-flex;
+    transform: rotate(-45deg) scale(0.3);
+}
+
+/* ↑トップコンテンツ */
+
+.first-container{
+    background-color: #FFFCF6;
+    padding-bottom: 200px;
+}
+
+.back-text01{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    transform: rotate(-20deg);
+    color: #F2AB40;
+    opacity: 40%;
+    position: relative;
+    z-index: 10;
+    right: 32vw;
+    top: 10px;
+    margin-bottom: -20px;
+}
+
+.first-title{
+    position: relative;
+    z-index: 20;
+}
+
+.first-details{
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* ↑ファーストコンテンツ */
+
+.second-container{
+    background-color: #EAF4FF;
+    height: 1800px;
+}
+
+.back-text02{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    transform: rotate(-20deg);
+    color: #F2AB40;
+    opacity: 40%;
+    position: relative;
+    z-index: 10;
+    margin-bottom: -30px;
+    right: 13vw;
+}
+
+.second-title{
+    padding-bottom: 50px;
+}
+
+.second-img{
+    width: 300px;
+    vertical-align: top;
+}
+
+.text-back02{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 220px;
+    padding: 10px;
+    position: relative;
+    left: 31px;
+    bottom: 30px;
+}
+
+.title02{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.details02{
+    text-align: left;
+    font-size: 14px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.position-set02{
+    position: relative;
+    bottom: 160px;
+}
+
+.corp-block{
+    background-color: #ffffff;
+    width: 80%;
+    display: inline-block;
+    height: 400px;
+    margin-top: 45px;
+}
+
+.introduction-corp{
+    padding: 10px;
+}
+
+/* ↑セカンドコンテンツ */
+.third-container{
+    background-color: #FFFCF6;
+    padding-bottom: 40px;
+}
+
+.third-title{
+    margin-bottom: -15px;
+}
+
+.back-text03{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    transform: rotate(-20deg);
+    color: #F2AB40;
+    opacity: 40%;
+    position: relative;
+    z-index: 10;
+    top: 33px;
+    right: 19vw;
+}
+
+.back-text-n{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    right: 130px;
+    z-index: 10;
+    color: #F2AB40;
+    font-style: italic;
+}
+
+.service-img{
+    width: 250px;
+}
+
+.service-title{
+    padding: 30px 0 20px 0;
+    font-weight: bold;
+    border-bottom: #BCCFE4 solid 1px;
+    width: 250px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service-details{
+    text-align: left;
+    font-size: 14px;
+    padding: 10px 30px 30px;
+}
+
+.service-contents{
+    border: #BCCFE4 solid 3px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.back-text-f{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    right: 130px;
+    z-index: 10;
+    color: #F2AB40;
+    font-style: italic;
+}
+
+.service-details-f{
+    text-align: left;
+    font-size: 14px;
+    padding: 10px 30px 30px;
+}
+
+.service-contents-f{
+    border: #BCCFE4 solid 3px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.service-title-f{
+    padding: 30px 0 20px 0;
+    font-weight: bold;
+    border-bottom: #BCCFE4 solid 1px;
+    width: 250px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service-summary-f{
+    text-align: left;
+    color: #F2AB40;
+    padding-left: 30px;
+}
+
+/* ↑サードコンテンツ */
+
+.fourth-container{
+    background-color: #EAF4FF;
+}
