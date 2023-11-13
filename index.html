@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="top-rayout.css"> <!--width=1024px以上-->
+    <link rel="stylesheet" href="top-rayout.css" media="(min-width: 541px)">
+    <link rel="stylesheet" href="top-rayout-sp.css" media="(max-width: 540px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap" rel="stylesheet">
@@ -26,25 +27,29 @@
                 <p class="sign-in">ログイン</p>
             </div>
         </header>
-
-        <img src="job-top-01.jpg" alt="" class="top-img">
-        <div class="top-container"><!-- topコンテンツ -->
-            <div class="call">転職決定人数</div>
-            <div class="no1">NO.1</div>
-            <div class="achieve-flex"><!-- ←横並び実績 -->
-                <div class="achieve-border">
-                    <p class="achieve-title">50万人</p>
-                    <div class="achieve-details">が選んだ転職<br>エージェント</div>
+        <div class="b-img">
+            <!-- <picture>
+                <source srcset="job-top-sp.png" media="(max-width:1023px)">
+                <source srcset="job-top-01.jpg" media="(min-width:1024px)">
+                <img src="job-top-sp.png" alt="" class="top-img">
+            </picture> -->
+            <div class="top-container"><!-- topコンテンツ -->
+                <div class="call">転職決定人数</div>
+                <div class="no1">NO.1</div>
+                <div class="achieve-flex"><!-- ←横並び実績 -->
+                    <div class="achieve-border">
+                        <p class="achieve-title">50万人</p>
+                        <div class="achieve-details">が選んだ転職<br>エージェント</div>
+                    </div>
+                    <div class="achieve-border">
+                        <p class="achieve-title">19年の実績</p>
+                        <div class="achieve-details">があるから<br>任せて安心</div>
+                    </div>
                 </div>
-                <div class="achieve-border">
-                    <p class="achieve-title">19年の実績</p>
-                    <div class="achieve-details">があるから<br>任せて安心</div>
-                </div>
+                <div class="induction-bt-t"><span class="bt-details-t">無料転職サービスを利用する</span><span class="i-bt-icon-t">&#9698;</span></div><!-- ←誘導ボタン -->
             </div>
-            <div class="induction-bt"><span class="bt-details">無料転職サービスを利用する</span><span class="i-bt-icon">&#9698;</span></div><!-- ←誘導ボタン -->
-        </div>
+            </div>
         <!-- ↑top↑ -->
-
 
         <!-- ↓first↓ -->
         <div class="first-container">
@@ -67,25 +72,25 @@
                     <h1 class="second-title">当社の強み</h1>
                 </div>
                 <div class="img-flex02">
-                    <img src="job01.png" alt="" class="second-img">
-                    <img src="job02.png" alt="" class="second-img">
-                    <img src="job03.png" alt="" class="second-img">
-                </div>
-                <div class="text-flex02">
-                    <div class="text-box02-1">
-                        <div class="title02">転職決定人数NO.1</div>
-                        <div class="details02">当社は、リクナビNEXT『GOOD AGENT RANKING』、パーソルキャリア『DODA Valuable Partner Award2017』にて、数ある転職エージェントの中から「最も多くの求職者を転職成功に導いたエージェント」に選ばれています。
+                    <div class="str-flex">
+                        <img src="job01.png" alt="" class="second-img">
+                        <div class="text-back02">
+                            <div class="title02">転職決定人数NO.1</div>
+                            <div class="details02">当社は、リクナビNEXT『GOOD AGENT RANKING』、パーソルキャリア『DODA Valuable Partner Award2017』にて、数ある転職エージェントの中から「最も多くの求職者を転職成功に導いたエージェント」に選ばれています。</div>
                         </div>
                     </div>
-                    <div class="text-box02-2">
-                        <div class="title02">実績豊富なアドバイザー</div>
-                        <div class="details02">各業界に精通したキャリアアドバイザーが、お客様の希望やスキルに沿った求人を厳選してご紹介いたします。全力で寄り添い、転職活動でかかるお客様のご負担を少しでも軽減できるよう今まで培ったスキルを活かし提案から転職決定までサポートいたします。
+                    <div class="str-flex">
+                        <img src="job02.png" alt="" class="second-img">
+                        <div class="text-back02">
+                            <div class="title02">実績豊富なアドバイザー</div>
+                            <div class="details02">各業界に精通したキャリアアドバイザーが、お客様の希望やスキルに沿った求人を厳選してご紹介いたします。全力で寄り添い、転職活動でかかるお客様のご負担を少しでも軽減できるよう今まで培ったスキルを活かし提案から転職決定までサポートいたします。</div>
                         </div>
                     </div>
-                    <div class="text-box02-3">
-                        <div class="title02">未経験からの<br>キャリアチェンジに強い
-                        </div>
-                        <div class="details02">当社は、未経験から異業種へのキャリアチェンジも得意としています。無料エンジニアスクールなど、完全未経験者（主に20代）が新たなキャリアを築くための支援をいたします。
+                    <div class="str-flex">
+                        <img src="job03.png" alt="" class="second-img">
+                        <div class="text-back02">
+                            <div class="title02">未経験からの<br>キャリアチェンジに強い</div>
+                            <div class="details02">当社は、未経験から異業種へのキャリアチェンジも得意としています。無料エンジニアスクールなど、完全未経験者（主に20代）が新たなキャリアを築くための支援をいたします。</div>
                         </div>
                     </div>
                 </div>
@@ -114,34 +119,34 @@
                 <h1 class="third-title">サービスの特徴</h1>
             </div>
             <div class="third-flex">
-                <div class="service-contents01">
                     <p class="back-text-n">01</p>
                     <div></div>
+                <div class="service-contents">
                     <div class="service-title">専任アドバイザーによるサービス</div>
                     <img src="job04.png" alt="" class="service-img">
                     <div class="service-details">当社の無料転職相談サービスは、これまでの転職相談はもちろん、『アドバイザー』のように転職活動のさまざまなご要望にお応えします。お客様一人ひとりのスキルや職務経歴、将来の展望までを考慮したOne to Oneなリコメンド、アドバイスを提供いたします。
                     </div>
                 </div>
-                <div class="service-contents01">
                     <p class="back-text-n">02</p>
                     <div></div>
+                <div class="service-contents">
                     <div class="service-title">業界・職種のスペシャリスト</div>
                     <img src="job05.png" alt="" class="service-img">
                     <div class="service-details">私たち当社の転職アドバイザーは業界の転職アドバイスのスペシャリストなだけでなく、皆さまの転職活動をより快適に気持ちよく行っていただけるように日々努力しております。是非一度このサービスクオリティを体験していただければと思います。
                     </div>
                 </div>
-                <div class="service-contents02">
                     <p class="back-text-n">03</p>
                     <div></div>
+                <div class="service-contents">
                     <div class="service-title">各業界の厳選した豊富な求人数</div>
                     <img src="job06.png" alt="" class="service-img">
                     <div class="service-details">業界・職種専門である私たちには、各業界から多くの求人が集まっています。既に紹介会社を通じて転職活動をしている方も是非登録してご希望の求人があるかご覧になってください。サイト内の求人検索で、希望する仕事が見つからなかったと諦めてはいけません。当社が保有する求人情報のうち、約70～95％が一般には公開していない非公開求人情報です。
                     </div>
                 </div>
-                <div class="service-contents02">
                     <p class="back-text-n">04</p>
                     <div></div>
-                    <div class="service-title-04">
+                <div class="service-contents">
+                    <div class="service-title">
                     転職支援ツール『eコンシェル』
                     </div>
                     <img src="job07.png" alt="" class="service-img">
@@ -150,9 +155,9 @@
                     </div>
                 </div>
             </div>
-            <div class="service-contents-f">
                 <p class="back-text-f">05</p>
                 <div></div>
+            <div class="service-contents-f">
                 <div class="service-title-f">面接・書類作成アドバイス</div>
                 <div class="service-flex-f">
                     <div class="service-f">
