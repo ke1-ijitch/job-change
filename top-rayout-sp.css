@@ -2,6 +2,7 @@
 
 html{
     font-family: 'Noto Serif JP', serif;
+    touch-action: manipulation;
 }
 
 body{
@@ -28,6 +29,7 @@ input,select,textarea{
 
 input[type=radio]{
     display: none;
+    font-size: 100%;
 }
 
 p{
