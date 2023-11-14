@@ -389,10 +389,14 @@ h3{
     display: inline-block;
 }
 
+.fourth-flex{
+    width: 250px;
+    display: inline-block;
+}
+
 .round-img{
     width: 150px;
     padding: 10px 0 15px 0;
-    margin: 0 auto;
 }
 
 .step-title{
