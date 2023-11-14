@@ -14,6 +14,18 @@ body{
     background-image: url(texture_00010.jpg);
 }
 
+input,select,textarea{
+    outline: none;
+    display: inline-block;
+    background: #f3f9ff;
+    border: solid #BCCFE4 2px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: 'Noto Serif JP', serif;
+    padding: 0;
+    margin: 0;
+}
+
 input[type=radio]{
     display: none;
 }
@@ -400,4 +412,267 @@ h3{
 
 .icon-flex{
     display: none;
+}
+
+/* ↑フォースコンテンツ */
+
+.fifth-container{
+    background: #ffffff;
+    padding-bottom: 40px;
+}
+
+.back-text05{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    transform: rotate(-20deg);
+    color: #F2AB40;
+    opacity: 40%;
+    position: relative;
+    z-index: 10;
+    top: 33px;
+    right: 19vw;
+}
+
+.cauntion{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.form{
+    width: 350px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.fifth-title{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.koumoku{
+    width: 140px;
+    float: left;
+    font-size: 14px;
+}
+
+#rendou,#rendou01{
+    margin-bottom: 20px;
+    width: 85px;
+}
+
+#rendou01{
+    margin-left: 20px;
+}
+
+#birth-y{
+    width: 50px;
+    margin-right: 5px;
+}
+
+#birth-m{
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#birth-d{
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#birth-y,#birth-m,#birth-d{
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+#mail{
+    width: 197px;
+    margin-bottom: 20px;
+}
+
+#tel{
+    width: 197px;
+    margin-bottom: 20px;
+}
+
+#todouhuken{
+    width: 200px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+#kinmuti{
+    width: 200px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+#syokusyu{
+    width: 197px;
+    margin-bottom: 20px;
+}
+
+#keireki{
+    width: 197px;
+    max-height: 300px;
+    margin-bottom: 30px;
+}
+
+.yes{
+    border: #F2AB40 2px solid;
+    color: #F2AB40;
+    padding: 7px 20px;
+    border-radius: 5px;
+    margin-right: 30px;
+    transition: all 0.3s;
+}
+
+.yes:hover{
+    border: #F2AB40 2px solid;
+    background: #F2AB40;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+#yes:checked + label{
+    border: #F2AB40 2px solid;
+    background: #F2AB40;
+    color: #ffffff;
+}
+
+.no{
+    border: #79A7D9 2px solid;
+    color: #79A7D9;
+    padding: 7px 20px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.no:hover{
+    border: #79A7D9 2px solid;
+    background: #79A7D9;
+    color: #ffffff;
+    padding: 7px 20px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#no:checked + label{
+    border: #79A7D9 2px solid;
+    background: #79A7D9;
+    color: #ffffff;
+}
+
+.tel-cau{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tel-anno{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.tel-title{
+    width: 250px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.tel-list{
+    width: 250px;
+    margin: 0 auto;
+}
+
+#time{
+    width: 150px;
+    height: 30px;
+}
+
+.p-title{
+    text-align: center;
+    margin: 0 auto;
+    left: 90px;
+    background: #FFFEFE;
+    padding-top: 40px;
+    font-size: 14px;
+}
+
+.check-posi{
+    text-align: center;
+    background: #FFFEFE;
+    width: 240px;
+    height: 25px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.p-agree{
+    position: relative;
+    bottom: 8px;
+    font-size: 12px;
+    left: 5px;
+}
+
+
+.inline-box {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    width: 250px;
+    height: 400px;
+    overflow: auto;
+    background: #ffffff;
+    border: 5px solid #BCCFE4;
+    padding:20px;
+}
+
+.footer-back{
+    background: #79A7D9;
+    height: 400px;
+}
+
+.agree-icon{
+    display: inline-block;
+    font-size: 10px;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 2px;
+}
+
+.bt-posi{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bt{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    bottom: 30px;
+    border: #F2AB40 2px solid;
+    color: #F2AB40;
+    background-color: #FFFEFE;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Noto Serif JP', serif;
+    transition: 0.3s all;
+}
+
+#bt:hover{
+    display: inline-block;
+    text-decoration: none;
+    bottom: 30px;
+    border: #F2AB40 2px solid;
+    color: #ffffff;
+    background-color: #F2AB40;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Noto Serif JP', serif;
+    transition: 0.3s all;
 }
