@@ -24,16 +24,16 @@ p{
 }
 
 h1{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 h2{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
 }
 
 h3{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
 }
 
@@ -77,12 +77,12 @@ h3{
 }
 
 .call{
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: -15px;
 }
 
 .no1{
-    font-size: 36px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: -5px;
 }
@@ -114,7 +114,7 @@ h3{
 }
 
 .achieve-title{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     color: #F2AB40;
 }
@@ -380,6 +380,7 @@ h3{
 .round-img{
     width: 150px;
     padding: 10px 0 15px 0;
+    display: inline-block;
 }
 
 .step-title{
